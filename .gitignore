@@ -1,0 +1,25 @@
+# Archivos y directorios internos de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de estado
+*.tfstate
+*.tfstate.backup
+
+# Archivos de claves privadas
+*.pem
+*.key
+*.pub
+
+# Variables con secretos
+*.tfvars
+*.tfvars.json
+
+# Archivos de configuración locales
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Salidas de planes
+*.plan
